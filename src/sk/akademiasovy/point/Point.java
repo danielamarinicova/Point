@@ -57,4 +57,19 @@ public class Point {
         return Math.sqrt(Math.pow(x-other.getX(),2)+ Math.pow(y-other.getY(),2));
     }
 
+   public void doAxialSymetry(char type) {
+       if (type == 'x' || type == 'X')
+           y = -y;
+            else if (type == 'y' || type == 'Y')
+               x = -x;
+
+   }
+
+   public void doCentralSymetry () {
+        x=-x;
+        y=-y;
+        }
+
+
+
 }
