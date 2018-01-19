@@ -18,6 +18,27 @@ public class Main {
         p32.print();
         System.out.println("Distance between p31 and p32  is : "+p31.getDistanceFromOtherPoint(p32));
 
+        Object o1=new Point();
+        Point p3=new Point3D(2,8,7);
+
+        System.out.println(p3.getDistance());
+        Point3D p33=(Point3D)p3;
+        System.out.println(p33.getDistance());
+
+        Geometry g1;
+        g1=new Point(5,-9);
+        ((Point)g1).print();
+
+        Geometry[] arr=new Geometry[10];
+        int i;
+        for(i=0;i<10;i++){
+            Point3D p10=new Point3D();
+            p10.generateRandomCoord();
+            arr[i]=p10;
+        }
+        for (Geometry g:arr){
+            ((Point3D)g).print();
+        }
 
 
     }
