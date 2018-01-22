@@ -39,6 +39,10 @@ public class Main {
         for (Geometry g:arr){
             ((Point3D)g).print();
         }
+        Point bod15=new Point(2,5);
+
+        Line line1=new Line(bod15, new Point(10,4));
+        Line line1=new Line(1,3,4,6));
 
 
     }
