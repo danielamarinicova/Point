@@ -40,6 +40,10 @@ public class Point3D extends Point{
             System.out.println("Point3D: ["+getX()+","+getY()+","+z+" Dist: "+getDistance());
     }
 
+    public void test(){
+
+    }
+
 
 }
 

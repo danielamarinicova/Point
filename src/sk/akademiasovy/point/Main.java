@@ -42,8 +42,10 @@ public class Main {
         Point bod15=new Point(2,5);
 
         Line line1=new Line(bod15, new Point(10,4));
-        Line line1=new Line(1,3,4,6));
-
+        Line line2=new Line(1,3,4,6);
+        System.out.println("Length of line1 is"+line1.getLength());
+        System.out.println("Middle point of line2 is : ");
+        line2.getMiddlePointOfLine().print();
 
     }
 
