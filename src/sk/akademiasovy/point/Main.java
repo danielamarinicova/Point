@@ -1,6 +1,7 @@
 package sk.akademiasovy.point;
 
 import sk.akademiasovy.date.MyDate;
+import sk.akademiasovy.sk.akademiasovy.adder.MyClass;
 
 public class Main {
     public static void main(String[] args) {
@@ -58,6 +59,10 @@ public class Main {
         MyDate myDate=new MyDate();
         myDate.today();
         myDate.today2();
+
+        MyClass myClass=new MyClass();
+
+        System.out.println(myClass.getGender(952157436));
 
     }
 
